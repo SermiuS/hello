@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.hello">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".Viktorina_ru" />
+        <activity android:name=".Viktorina_lv" />
+        <activity android:name=".Bethoven_eng" />
+        <activity android:name=".Bethoven_ru" />
+        <activity android:name=".Bethoven_lv" />
+        <activity android:name=".Vivaldi_eng" />
+        <activity android:name=".Vivaldi_lv" />
+        <activity android:name=".Vivaldi_ru" />
+        <activity android:name=".Bah_eng" />
+        <activity android:name=".Bah_lv" />
+        <activity android:name=".Bah_ru" />
+        <activity android:name=".Main3Activity" />
+        <activity android:name=".Mocart_lv" />
+        <activity android:name=".Musican_lv" />
+        <activity android:name=".Chose_darbiba_lv" />
+        <activity android:name=".Mocart_eng" />
+        <activity android:name=".Musican_eng" />
+        <activity android:name=".Mocart_ru" />
+        <activity android:name=".Musican_ru" />
+        <activity android:name=".Chose_darbiba_ru" />
+        <activity android:name=".Chose_darbiba" />
+        <activity android:name=".Aizmirsi" />
+        <activity android:name=".Main2Activity" />
+        <activity android:name=".MainActivity" />
+        <activity android:name=".ChosePl" />
+        <activity android:name=".Activity_email_password">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name=".Activity_email_password" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+    </application>
+
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+</manifest>

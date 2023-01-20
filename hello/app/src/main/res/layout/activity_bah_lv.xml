@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp"
+    tools:context=".Bah_lv">
+
+    <Button
+        android:id="@+id/Back"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        android:text="Atpakaļ"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageButton
+            android:id="@+id/start"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/play_icon"
+            tools:ignore="VectorDrawableCompat" />
+
+        <ImageButton
+            android:id="@+id/pause"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/pause_icon"
+            tools:ignore="VectorDrawableCompat" />
+
+
+
+    </LinearLayout>
+
+    <SeekBar
+        android:id="@+id/volumeControl"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="326dp"
+                android:layout_height="46dp"
+                android:layout_gravity="center"
+                android:text="Johans Sebastians Bahs"
+                android:textColor="#E30909"
+                android:textSize="24sp" />
+
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginStart="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginRight="10dp"
+                android:text="1685. gada 21. marts [31], Eisenach, Saxe-Eisenach - 1750. gada 28. jūlijs Leipciga"
+                android:textSize="24dp" />
+
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginRight="10dp"
+                android:text="Autors vairāk nekā 1000 mūzikas darbiem visos sava laika nozīmīgajos žanros (izņemot operu). Baha radošais mantojums tiek interpretēts kā baroka mūzikas mākslas vispārinājums."
+                android:textSize="24dp">
+
+            </TextView>
+
+            <TextView
+                android:id="@+id/textView6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginStart="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginRight="10dp"
+                android:text="Bērnība.
+Johans Sebastians Bahs bija jaunākais, astotais bērns mūziķu Johanna Ambrosiusa Baha un Elizabetes Lemmerhirtas ģimenē. Rods Bakhovs ir pazīstams ar savu muzikalitāti kopš 16. gadsimta sākuma: daudzi Johanna Sebastiana senči un radinieki bija profesionāli mākslinieki un mūziķi.
+Šajā laika posmā baznīca, vietējās varas iestādes un aristokrātija atbalstīja mūziķus, īpaši Tīringenē un Saksijā. Baha ģimene bija vācu izcelsmes, uzvārda Faith Baha attālākais sencis bija no Tīringenes, pārcēlās uz Ungāriju, bet protestantu reliģisko vajāšanu ietekmē, kas tur sākās 16. gadsimtā, viņš atgriezās dzimtenē, kopš tā laika Baha ģimene neatstāja tēvzemi.
+Kad Johanam Sebastianam bija 9 gadi, viņa māte nomira, bet gadu vēlāk tēvs nomira. Zēns tika aizvests pie vecākā brāļa Johana Kristofa, kurš kalpoja par ērģelnieku tuvējā Ordruffā. Johans Sebastians iestājās ģimnāzijā, brālis iemācīja viņam spēlēt ērģeles un klavieres.
+15 gadu vecumā Bahs pārcēlās uz Luneburgu, kur 1700. – 1703. Gadā mācījās Sv. Miķeļa vokālajā skolā. Studiju laikā viņš apmeklēja Hamburgu - lielāko Vācijas pilsētu, kā arī Cellu (kur franču mūzika tika turēta augstu) un Lībeku, kur viņam bija iespēja iepazīties ar sava laika slavenu mūziķu darbu.
+"
+                android:textSize="24dp" />
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

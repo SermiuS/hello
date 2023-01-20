@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp"
+    tools:context=".Bah_ru">
+
+    <Button
+        android:id="@+id/Back"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        android:text="Назад"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageButton
+            android:id="@+id/start"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/play_icon"
+            tools:ignore="VectorDrawableCompat" />
+
+        <ImageButton
+            android:id="@+id/pause"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/pause_icon"
+            tools:ignore="VectorDrawableCompat" />
+
+
+
+    </LinearLayout>
+
+    <SeekBar
+        android:id="@+id/volumeControl"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="326dp"
+                android:layout_height="46dp"
+                android:layout_gravity="center"
+                android:text="Иоганн Себастьян Бах"
+                android:textColor="#E30909"
+                android:textSize="24sp" />
+
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginStart="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginRight="10dp"
+                android:text="21 [31] марта 1685, Эйзенах, Саксен-Эйзенах — 28 июля 1750 Лейпциг"
+                android:textSize="24dp" />
+
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginRight="10dp"
+                android:text="Автор более 1000 музыкальных произведений во всех значимых жанрах своего времени (кроме оперы). Творческое наследие Баха интерпретируется как обобщение музыкального искусства барокко."
+                android:textSize="24dp">
+
+        </TextView>
+
+            <TextView
+                android:id="@+id/textView6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginStart="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginRight="10dp"
+                android:text="Детство.
+Иоганн Себастьян Бах был младшим, восьмым ребёнком в семье музыканта Иоганна Амброзиуса Баха и Элизабет Леммерхирт. Род Бахов известен своей музыкальностью с начала XVI века: многие предки и родственники Иоганна Себастьяна были профессиональными артистами и музыкантами.
+В этот период церковь, местные власти и аристократия поддерживали музыкантов, особенно в Тюрингии и Саксонии. Род Бахов был немецкого происхождения, самый отдалённый родоначальник фамилии Фейт Бах был родом из Тюрингии, переселился в Венгрию, но под влиянием религиозных преследований протестантов, начатых там в XVI в., вернулся на родину, с тех пор род Бахов не покидал отечество.
+Когда Иоганну Себастьяну было 9 лет, умерла его мать, а через год не стало отца. Мальчика взял к себе старший брат, Иоганн Кристоф, служивший органистом в соседнем Ордруфе. Иоганн Себастьян поступил в гимназию, брат обучал его игре на органе и клавире.
+В 15 лет Бах переехал в Люнебург, где в 1700—1703 годах учился в вокальной школе Св. Михаила. Во время учёбы он посетил Гамбург — крупнейший город в Германии, а также Целле (где в почёте была французская музыка) и Любек, где он имел возможность познакомиться с творчеством знаменитых музыкантов своего времени.
+"
+                android:textSize="24dp" />
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp"
+    tools:context=".Bethoven_ru">
+
+    <Button
+        android:id="@+id/Back"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        android:text="Назад"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageButton
+            android:id="@+id/start"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/play_icon"
+            tools:ignore="VectorDrawableCompat" />
+
+        <ImageButton
+            android:id="@+id/pause"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/pause_icon"
+            tools:ignore="VectorDrawableCompat" />
+
+
+
+    </LinearLayout>
+
+    <SeekBar
+        android:id="@+id/volumeControl"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="326dp"
+                android:layout_height="46dp"
+                android:layout_gravity="center"
+                android:text="Людвиг ван Бетховен"
+                android:textColor="#E30909"
+                android:textSize="24sp" />
+
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginStart="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginRight="10dp"
+                android:text="16 декабря 1770, Бонн, Священная Римская Империя — 26 марта 1827, Вена"
+                android:textSize="24dp" />
+
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginRight="10dp"
+                android:text="Немецкий композитор, пианист и дирижёр, последний представитель «венской классической школы».
+Ключевая фигура классической музыки в период между классицизмом и романтизмом, один из наиболее исполняемых композиторов в мире. Он писал во всех существовавших в его время жанрах, включая оперу, музыку к драматическим спектаклям, хоровые сочинения. Самыми значительными в его наследии считаются инструментальные произведения: фортепианные, скрипичные и виолончельные сонаты, концерты для фортепиано, для скрипки, квартеты, увертюры, симфонии.
+"
+                android:textSize="24dp">
+
+            </TextView>
+
+            <TextView
+                android:id="@+id/textView6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginStart="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginRight="10dp"
+                android:text="Детство.
+Отец композитора хотел сделать из своего сына второго Моцарта и стал обучать игре на клавесине и скрипке. В 1778 году в Кёльне состоялось первое выступление Людвига. Однако чудо-ребёнком Бетховен не стал, и отец же перепоручил мальчика своим коллегам и приятелям. Один обучал Людвига игре на органе, другой — на скрипке.
+"
+                android:textSize="24dp" />
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

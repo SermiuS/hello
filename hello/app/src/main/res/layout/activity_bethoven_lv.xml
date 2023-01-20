@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp"
+    tools:context=".Bethoven_lv">
+
+    <Button
+        android:id="@+id/Back"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        android:text="Atpakaļ"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageButton
+            android:id="@+id/start"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/play_icon"
+            tools:ignore="VectorDrawableCompat" />
+
+        <ImageButton
+            android:id="@+id/pause"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/pause_icon"
+            tools:ignore="VectorDrawableCompat" />
+
+
+
+    </LinearLayout>
+
+    <SeekBar
+        android:id="@+id/volumeControl"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="326dp"
+                android:layout_height="46dp"
+                android:layout_gravity="center"
+                android:text="Ludvigs van Bēthovens"
+                android:textColor="#E30909"
+                android:textSize="24sp" />
+
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginStart="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginRight="10dp"
+                android:text="1770. gada 16. decembris, Bonna, Svētās Romas impērija - 1827. gada 26. marts, Vīne"
+                android:textSize="24dp" />
+
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginRight="10dp"
+                android:text="Vācu komponists, pianists un diriģents, pēdējais 'Vīnes klasiskās skolas' pārstāvis.
+Klasiskās mūzikas atslēgas figūra starp klasicismu un romantismu, viens no visvairāk izpildītajiem komponistiem pasaulē. Viņš rakstīja visos viņa laikā pastāvošajos žanros, ieskaitot operu, mūziku dramatiskām izrādēm un koru darbus. Nozīmīgākie viņa mantojumā ir instrumentālie darbi: klavieru, vijoles un čellu sonātes, koncerti klavierēm, vijolei, kvartetiem, uvertīrēm, simfonijām.
+"
+                android:textSize="24dp">
+
+            </TextView>
+
+            <TextView
+                android:id="@+id/textView6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginStart="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginRight="10dp"
+                android:text="Bērnība.
+Komponista tēvs vēlējās padarīt Mocartu par otro no dēla un sāka mācīt spēlēt klavesīnu un vijoli. 1778. gadā Ķelnē notika Ludviga pirmā izrāde. Tomēr Bēthovens nekļuva par brīnumu bērnu, un viņa tēvs uzticēja zēnu saviem kolēģiem un draugiem. Viens iemācīja Ludvigam, kā spēlēt ērģeles, otrs - ar vijoli.
+"
+                android:textSize="24dp" />
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

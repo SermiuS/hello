@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp"
+    tools:context=".Vivaldi_lv">
+
+    <Button
+        android:id="@+id/Back"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        android:text="Atpakaļ"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageButton
+            android:id="@+id/start"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/play_icon"
+            tools:ignore="VectorDrawableCompat" />
+
+        <ImageButton
+            android:id="@+id/pause"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/pause_icon"
+            tools:ignore="VectorDrawableCompat" />
+
+
+
+    </LinearLayout>
+
+    <SeekBar
+        android:id="@+id/volumeControl"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="326dp"
+                android:layout_height="46dp"
+                android:layout_gravity="center"
+                android:text="Antonio Lucio Vivaldi"
+                android:textColor="#E30909"
+                android:textSize="24sp" />
+
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginStart="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginRight="10dp"
+                android:text="1678. gada 4. marts, Venēcija - 1741. gada 28. jūlijs, Vīne"
+                android:textSize="24dp" />
+
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginRight="10dp"
+                android:text="Itāļu komponists, virtuozais vijolnieks, skolotājs, diriģents, katoļu priesteris. Vivaldi tiek uzskatīts par vienu no lielākajiem XVIII gadsimta itāļu vijoles mākslas pārstāvjiem [4], viņa dzīves laikā viņš tika plaši atzīts visā Eiropā.
+Apmēram 40 operu autore. Vivaldi galvenokārt ir pazīstams ar instrumentālajiem koncertiem, īpaši ar vijoli. Viens no slavenākajiem viņa darbiem ir četri vijoles koncerti “Gadalaiki”
+Bērnība.
+Par komponista jaunības gadiem un viņa muzikālo izglītību ir maz informācijas. Droši vien tieši viņa tēvs kļuva par viņa pirmo muzikālo mentoru, mācīdams vijoli, pie kura jaunais komponists bija saistīts jau kopš desmit gadu vecuma, un jau 1689.-1682. Gadā viņš nomainīja savu tēvu Svētā Marka katedrāles kapelā viņa biežās prombūtnes laikā no Venēcijas dēļ.
+Tēva kalpošana baznīcas katedrālē un kontakti ar garīdzniekiem ietekmēja jaunā Antonio turpmākās karjeras izvēli. Viņš nolēma kļūt par garīdznieku, un tas ir saprotams, jo tajā laikā Itālijā bija ierasts apvienot garīgo un muzikālo karjeru.
+Drīz pēc savas ordinācijas 1704. gadā viņš saņēma atvieglojumu misas rīkošanā sliktās veselības dēļ. Vivaldi Misi kā priesteri rīkoja tikai dažas reizes, pēc tam viņš atstāja savus pienākumus baznīcā, lai arī palika garīdznieks. 1703. gada septembrī Vivaldi kļuva par “vijoles meistaru”
+Vivaldi rakstīja koncertus, kantātes, kā arī vokālo mūziku Bībeles tekstos studentiem. Šīs kompozīcijas, kuru skaits pārsniedz 60, ir daudzveidīgas: tajās ietilpst solo dziedājumi un liela mēroga kora darbi solistiem, korim un orķestrim.
+
+"
+                android:textSize="24dp">
+
+            </TextView>
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>
